@@ -1,0 +1,700 @@
+  [1m[35m (1090.2ms)[0m  [1m[35mCREATE DATABASE "controllers_routes_views_tuan_daniel_development" ENCODING = 'unicode'[0m
+  [1m[35m (345.0ms)[0m  [1m[35mCREATE DATABASE "controllers_routes_views_tuan_daniel_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-09-06 17:01:50 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.2ms | Allocations: 752)
+Completed 200 OK in 60ms (Views: 22.7ms | ActiveRecord: 0.0ms | Allocations: 7127)
+
+
+Started GET "/" for ::1 at 2022-09-06 17:07:29 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.4ms | Allocations: 645)
+Completed 200 OK in 37ms (Views: 14.7ms | ActiveRecord: 0.0ms | Allocations: 5846)
+
+
+Started GET "/" for ::1 at 2022-09-06 17:09:25 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.2ms | Allocations: 375)
+Completed 200 OK in 7ms (Views: 4.9ms | ActiveRecord: 0.0ms | Allocations: 1251)
+
+
+Started GET "/display" for ::1 at 2022-09-06 17:09:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/display"):
+  
+Started GET "/display" for ::1 at 2022-09-06 17:11:19 -0400
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+        render html: <a href="google.com">'Tuan Le,...
+                     ^
+/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:5: unterminated regexp meets end of file
+/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated regexp meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated regexp meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated regexp meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/display" for ::1 at 2022-09-06 17:11:38 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 953)
+
+
+Started GET "/display" for ::1 at 2022-09-06 17:14:26 -0400
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+        render html: <%= link_to 'Tuan Le, Daniel C...
+                     ^
+/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:5: unterminated string meets end of file
+/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated string meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated string meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated string meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/display" for ::1 at 2022-09-06 17:17:39 -0400
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+        render html: <p><%= link_to 'Tuan Le, Danie...
+                     ^
+/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:5: unterminated string meets end of file
+/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated string meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated string meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:5: unterminated string meets end of file
+app/controllers/main_controller.rb:5: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/display" for ::1 at 2022-09-06 17:24:25 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 710)
+
+
+Started GET "/display" for ::1 at 2022-09-06 17:25:29 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 1795)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:27:35 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 11ms (Allocations: 1674)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:6:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:28:37 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1677)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:6:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:30:02 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 1775)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:6:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:36:37 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 40ms (Allocations: 1770)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:6:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:41:15 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 6ms (Views: 3.5ms | Allocations: 691)
+
+
+Started GET "/" for ::1 at 2022-09-06 17:42:40 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.5ms | Allocations: 377)
+Completed 200 OK in 9ms (Views: 6.3ms | Allocations: 1184)
+
+
+Started GET "/" for ::1 at 2022-09-06 17:42:45 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 289)
+
+
+Started GET "/" for ::1 at 2022-09-06 17:42:52 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 23)
+Completed 200 OK in 4ms (Views: 1.8ms | Allocations: 288)
+
+
+Started GET "/show_text" for ::1 at 2022-09-06 17:43:04 -0400
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:6: syntax error, unexpected ':', expecting `end'
+        render: 'display.html.erb'
+              ^
+):
+  
+app/controllers/main_controller.rb:6: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:6: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:6: syntax error, unexpected ':', expecting `end'
+Started GET "/show_text" for ::1 at 2022-09-06 17:43:50 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/show_text"):
+  
+Started GET "/display" for ::1 at 2022-09-06 17:43:54 -0400
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+        render: 'display.html.erb'
+              ^
+):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+Started GET "/display" for ::1 at 2022-09-06 17:44:48 -0400
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+        render: 'display.html.erb'
+              ^
+):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+Started GET "/display" for ::1 at 2022-09-06 17:46:22 -0400
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+        render: 'display.html.erb'
+              ^
+):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected ':', expecting `end'
+Started GET "/display" for ::1 at 2022-09-06 17:47:02 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 1714)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:49:00 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 1267)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:49:29 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 42ms (Allocations: 1770)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               /display):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/display" for ::1 at 2022-09-06 17:49:48 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 1773)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/" for ::1 at 2022-09-06 17:56:40 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 1675)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/" for ::1 at 2022-09-06 18:01:07 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 6ms (Allocations: 1264)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/" for ::1 at 2022-09-06 18:03:47 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 26ms (ActiveRecord: 0.0ms | Allocations: 6201)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/" for ::1 at 2022-09-06 18:04:53 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 1780)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/" for ::1 at 2022-09-06 18:07:09 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms | Allocations: 1778)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               /display):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/" for ::1 at 2022-09-06 18:08:11 -0400
+Processing by MainController#display as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 1780)
+
+
+  
+ActionView::MissingTemplate (Missing template main/display.html.erb, application/display.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/controllers_routes_views_tuan_daniel/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/display
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor
+               layouts/application
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:3:in `display'
+Started GET "/" for ::1 at 2022-09-06 18:08:43 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 6ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 873)
+
+
+Started GET "/display" for ::1 at 2022-09-06 18:09:04 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 241)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:12:03 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 4ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 241)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:14:47 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 4ms (Views: 3.0ms | Allocations: 679)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:14:49 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 239)
+
+
+Started GET "/display" for ::1 at 2022-09-06 18:14:52 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 238)
+
+
+Started GET "/display" for ::1 at 2022-09-06 18:14:53 -0400
+Processing by MainController#display as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 239)
+
+
+Started GET "/display" for ::1 at 2022-09-06 18:18:06 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 4.2ms | Allocations: 126)
+  Rendered layout layouts/application.html.erb (Duration: 2185.7ms | Allocations: 94975)
+Completed 200 OK in 2200ms (Views: 2196.5ms | Allocations: 96018)
+
+
+Started GET "/display" for ::1 at 2022-09-06 18:19:17 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 1.9ms | Allocations: 179)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 2887)
+Completed 200 OK in 21ms (Views: 19.0ms | Allocations: 3902)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:19:20 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.3ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 18.5ms | Allocations: 2413)
+Completed 200 OK in 25ms (Views: 20.8ms | Allocations: 2715)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:19:22 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.3ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2425)
+Completed 200 OK in 12ms (Views: 10.8ms | Allocations: 2726)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:19:40 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.3ms | Allocations: 34)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 2421)
+Completed 200 OK in 19ms (Views: 16.8ms | Allocations: 2719)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:19:42 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 1.8ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 21.7ms | Allocations: 2879)
+Completed 200 OK in 31ms (Views: 30.2ms | Allocations: 3890)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:19:50 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.7ms | Allocations: 205)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2883)
+Completed 200 OK in 12ms (Views: 11.6ms | Allocations: 3895)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:19:56 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.6ms | Allocations: 53)
+  Rendered layout layouts/application.html.erb (Duration: 20.1ms | Allocations: 2444)
+Completed 200 OK in 24ms (Views: 22.4ms | Allocations: 2743)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:20:10 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 3.9ms | Allocations: 209)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 2886)
+Completed 200 OK in 35ms (Views: 32.6ms | Allocations: 3897)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:20:12 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 2.2ms | Allocations: 219)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 2886)
+Completed 200 OK in 28ms (Views: 23.8ms | Allocations: 3898)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:25:11 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 3.0ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 85.1ms | Allocations: 14329)
+Completed 200 OK in 97ms (Views: 93.4ms | Allocations: 15371)
+
+
+Started GET "/three_foods" for ::1 at 2022-09-06 18:25:13 -0400
+Processing by MainController#three_foods as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 1.3ms | Allocations: 241)
+
+
+Started GET "/three_foods" for ::1 at 2022-09-06 18:25:13 -0400
+Processing by MainController#three_foods as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 4ms (Views: 1.3ms | Allocations: 238)
+
+
+Started GET "/three_foods" for ::1 at 2022-09-06 18:26:33 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/three_foods"):
+  
+Started GET "/" for ::1 at 2022-09-06 18:26:50 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.7ms | Allocations: 218)
+  Rendered layout layouts/application.html.erb (Duration: 27.1ms | Allocations: 14434)
+Completed 200 OK in 31ms (Views: 30.3ms | Allocations: 15478)
+
+
+Started GET "/daniels_foods" for ::1 at 2022-09-06 18:26:51 -0400
+Processing by MainController#daniels_foods as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 241)
+
+
+Started GET "/daniels_foods" for ::1 at 2022-09-06 18:26:51 -0400
+Processing by MainController#daniels_foods as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 4ms (Views: 1.5ms | Allocations: 238)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:26:59 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.8ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 2450)
+Completed 200 OK in 14ms (Views: 13.1ms | Allocations: 2748)
+
+
+Started GET "/tuans_foods" for ::1 at 2022-09-06 18:27:01 -0400
+Processing by MainController#tuans_foods as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 1.0ms | Allocations: 241)
+
+
+Started GET "/tuans_foods" for ::1 at 2022-09-06 18:27:01 -0400
+Processing by MainController#tuans_foods as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.7ms | Allocations: 238)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:27:07 -0400
+Processing by MainController#display as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/display.html.erb within layouts/application
+  Rendered main/display.html.erb within layouts/application (Duration: 0.4ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 2446)
+Completed 200 OK in 16ms (Views: 15.4ms | Allocations: 2744)
+
+
