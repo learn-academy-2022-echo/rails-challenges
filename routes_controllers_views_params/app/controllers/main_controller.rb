@@ -22,4 +22,17 @@ class MainController < ApplicationController
             @result =  "#{params[:number1]} is not evenly divisible by #{params[:number2]}"
         end
     end
+    def palindrome
+        if params[:string] == params[:string].reverse
+            @answer = "#{params[:string]} is a palindrome"
+        else
+            @answer = "#{params[:string]} is not a palindrome"
+        end
+    end
+    def madlib
+        @noun = params[:noun]
+        @verb = params[:verb]
+        @adjective = params[:adjective]
+        @adverb = params[:adverb]
+    end
 end
