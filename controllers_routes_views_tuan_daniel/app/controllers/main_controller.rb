@@ -10,4 +10,10 @@ class MainController < ApplicationController
     def tuans_foods
         render html: 'Steak, Burgers, Fries'
     end
+
+    def cubed
+        @number = params['number'].to_i ** 3
+        render 'cubed_numbers'
+    end
 end
+   

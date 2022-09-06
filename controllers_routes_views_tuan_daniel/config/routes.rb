@@ -6,4 +6,5 @@ Rails.application.routes.draw do
   get '/display' => 'main#display'
   get '/daniels_foods' => 'main#daniels_foods'
   get '/tuans_foods' => 'main#tuans_foods'
+  get '/cubed/:number' => 'main#cubed'
 end
