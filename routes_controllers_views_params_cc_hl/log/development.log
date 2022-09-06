@@ -1,0 +1,1587 @@
+  [1m[35m (847.5ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_development" ENCODING = 'unicode'[0m
+  [1m[35m (364.6ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-09-06 14:05:48 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.5ms | Allocations: 752)
+Completed 200 OK in 80ms (Views: 26.5ms | ActiveRecord: 0.0ms | Allocations: 7129)
+
+
+Started GET "/answer" for ::1 at 2022-09-06 14:13:16 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/answer"):
+  
+  [1m[35m (1.7ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.5ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_test" ENCODING = 'unicode'[0m
+Started GET "/answer" for ::1 at 2022-09-06 14:16:37 -0700
+Processing by MainController#answer as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 8)
+Completed 200 OK in 6ms (Views: 4.4ms | Allocations: 969)
+
+
+Started GET "/answer" for ::1 at 2022-09-06 14:17:38 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/answer"):
+  
+Started GET "/twerk" for ::1 at 2022-09-06 14:17:47 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 2.3ms | Allocations: 693)
+
+
+Started GET "/twerk" for ::1 at 2022-09-06 14:22:59 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 4ms (Views: 3.3ms | Allocations: 709)
+
+
+Started GET "/twerk" for ::1 at 2022-09-06 14:23:31 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 9ms (Views: 4.0ms | Allocations: 679)
+
+
+Started GET "/twerk" for ::1 at 2022-09-06 14:24:42 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 500 Internal Server Error in 4ms (Views: 3.0ms | Allocations: 1081)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/main_controller.rb:4:in `twerk'
+Started GET "/twerk" for ::1 at 2022-09-06 14:24:54 -0700
+Processing by MainController#twerk as HTML
+Completed 500 Internal Server Error in 8ms (Allocations: 1780)
+
+
+  
+ActionView::MissingTemplate (Missing template main/twerk.html.erb, application/twerk.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/twerk
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/index
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:4:in `twerk'
+Started GET "/twerk" for ::1 at 2022-09-06 14:25:15 -0700
+Processing by MainController#twerk as HTML
+Completed 500 Internal Server Error in 13ms (Allocations: 1644)
+
+
+  
+ActionView::MissingTemplate (Missing template main/twerk.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/twerk
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/index
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/sources/new
+               layouts/mailer):
+  
+app/controllers/main_controller.rb:4:in `twerk'
+Started GET "/twerk" for ::1 at 2022-09-06 14:25:46 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 2.6ms | Allocations: 692)
+
+
+Started GET "/twerk" for ::1 at 2022-09-06 14:27:35 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 4ms (Views: 2.9ms | Allocations: 691)
+
+
+Started GET "/twerk" for ::1 at 2022-09-06 14:27:37 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.4ms | Allocations: 238)
+
+
+Started GET "/twerk" for ::1 at 2022-09-06 14:27:54 -0700
+Processing by MainController#twerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 1.1ms | Allocations: 238)
+
+
+Started GET "/fireTwerk" for ::1 at 2022-09-06 14:28:07 -0700
+Processing by MainController#fireTwerk as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 7ms (Views: 1.6ms | Allocations: 238)
+
+
+Started GET "/fireTwerk" for ::1 at 2022-09-06 14:31:37 -0700
+  
+AbstractController::ActionNotFound (The action 'fireTwerk' could not be found for MainController
+Did you mean?  fire_twerk):
+  
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/fireTwerk" for ::1 at 2022-09-06 14:32:31 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/fireTwerk"):
+  
+Started GET "/" for ::1 at 2022-09-06 14:33:00 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 2.5ms | Allocations: 378)
+  Rendered layout layouts/application.html.erb (Duration: 1305.3ms | Allocations: 89600)
+Completed 200 OK in 1329ms (Views: 1312.1ms | ActiveRecord: 0.0ms | Allocations: 94959)
+
+
+Started GET "/fire_twerk" for ::1 at 2022-09-06 14:33:12 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 13.5ms | Allocations: 2417)
+Completed 200 OK in 17ms (Views: 14.9ms | ActiveRecord: 0.0ms | Allocations: 2736)
+
+
+Started GET "/fire_twerk" for ::1 at 2022-09-06 14:38:54 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 1.0ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 52.2ms | Allocations: 14250)
+Completed 200 OK in 59ms (Views: 56.8ms | ActiveRecord: 0.0ms | Allocations: 15315)
+
+
+Started GET "/cathrine" for ::1 at 2022-09-06 14:38:57 -0700
+Processing by MainController#cathrine as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cathrine.html.erb within layouts/application
+  Rendered main/cathrine.html.erb within layouts/application (Duration: 1.4ms | Allocations: 126)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2516)
+Completed 200 OK in 14ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 2899)
+
+
+Started GET "/fire_twerk" for ::1 at 2022-09-06 14:40:42 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 1.2ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 2809)
+Completed 200 OK in 29ms (Views: 25.9ms | ActiveRecord: 0.0ms | Allocations: 3840)
+
+
+Started GET "/hieu" for ::1 at 2022-09-06 14:40:43 -0700
+Processing by MainController#hieu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/hieu.html.erb within layouts/application
+  Rendered main/hieu.html.erb within layouts/application (Duration: 1.1ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2525)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms | Allocations: 2909)
+
+
+Started GET "/cathrine" for ::1 at 2022-09-06 14:40:46 -0700
+Processing by MainController#cathrine as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cathrine.html.erb within layouts/application
+  Rendered main/cathrine.html.erb within layouts/application (Duration: 0.7ms | Allocations: 133)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2522)
+Completed 200 OK in 11ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 2899)
+
+
+Started GET "/cathrine" for ::1 at 2022-09-06 14:49:08 -0700
+Processing by MainController#cathrine as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cathrine.html.erb within layouts/application
+  Rendered main/cathrine.html.erb within layouts/application (Duration: 1.5ms | Allocations: 136)
+  Rendered layout layouts/application.html.erb (Duration: 72.4ms | Allocations: 14238)
+Completed 200 OK in 82ms (Views: 78.9ms | Allocations: 15297)
+
+
+Started GET "/cubed" for ::1 at 2022-09-06 14:49:21 -0700
+  
+AbstractController::ActionNotFound (The action 'cubed' could not be found for MainController):
+  
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/?cubed=3" for ::1 at 2022-09-06 14:49:49 -0700
+Processing by MainController#fire_twerk as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 2.7ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 2526)
+Completed 200 OK in 16ms (Views: 13.0ms | Allocations: 2903)
+
+
+Started GET "/?cubed=3" for ::1 at 2022-09-06 14:50:53 -0700
+Processing by MainController#fire_twerk as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 23.4ms | Allocations: 14004)
+Completed 200 OK in 26ms (Views: 25.0ms | Allocations: 14773)
+
+
+Started GET "/cubed=3" for ::1 at 2022-09-06 14:51:05 -0700
+  
+AbstractController::ActionNotFound (The action 'cubed' could not be found for MainController):
+  
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:146:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cubed=3" for ::1 at 2022-09-06 14:51:26 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"cubed=3"}
+Completed 406 Not Acceptable in 2ms (Allocations: 616)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cubed" for ::1 at 2022-09-06 14:53:19 -0700
+Processing by MainController#cubed as HTML
+Completed 406 Not Acceptable in 1ms (Allocations: 510)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cubed" for ::1 at 2022-09-06 14:53:21 -0700
+Processing by MainController#cubed as HTML
+Completed 406 Not Acceptable in 2ms (Allocations: 530)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cubed" for ::1 at 2022-09-06 14:53:46 -0700
+Processing by MainController#cubed as HTML
+Completed 406 Not Acceptable in 17ms (ActiveRecord: 0.0ms | Allocations: 3563)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cubed" for ::1 at 2022-09-06 14:54:30 -0700
+Processing by MainController#cubed as HTML
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.0ms | Allocations: 762)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cubed" for ::1 at 2022-09-06 14:54:31 -0700
+Processing by MainController#cubed as HTML
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.0ms | Allocations: 537)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/" for ::1 at 2022-09-06 14:54:37 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 1.7ms | Allocations: 126)
+  Rendered layout layouts/application.html.erb (Duration: 131.4ms | Allocations: 35075)
+Completed 200 OK in 141ms (Views: 138.9ms | ActiveRecord: 0.0ms | Allocations: 36176)
+
+
+Started GET "/" for ::1 at 2022-09-06 14:54:56 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 2.8ms | Allocations: 378)
+  Rendered layout layouts/application.html.erb (Duration: 159.8ms | Allocations: 34901)
+Completed 200 OK in 197ms (Views: 169.7ms | ActiveRecord: 0.0ms | Allocations: 40263)
+
+
+Started GET "/cubed" for ::1 at 2022-09-06 14:54:59 -0700
+Processing by MainController#cubed as HTML
+Completed 406 Not Acceptable in 3ms (ActiveRecord: 0.0ms | Allocations: 751)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/main/cubed" for ::1 at 2022-09-06 14:55:29 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/main/cubed"):
+  
+Started GET "/cubed" for ::1 at 2022-09-06 14:55:44 -0700
+Processing by MainController#cubed as HTML
+Completed 406 Not Acceptable in 5ms (ActiveRecord: 0.0ms | Allocations: 533)
+
+
+  
+ActionController::MissingExactTemplate (MainController#cubed is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cubed" for ::1 at 2022-09-06 14:56:23 -0700
+Processing by MainController#cubed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 3.6ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 24.7ms | Allocations: 2810)
+Completed 200 OK in 41ms (Views: 31.4ms | ActiveRecord: 0.0ms | Allocations: 3847)
+
+
+Started GET "/cubed" for ::1 at 2022-09-06 14:59:10 -0700
+Processing by MainController#cubed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 41.9ms | Allocations: 14001)
+Completed 200 OK in 46ms (Views: 43.9ms | ActiveRecord: 0.0ms | Allocations: 14772)
+
+
+Started GET "/cubed/3" for ::1 at 2022-09-06 14:59:16 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2399)
+Completed 200 OK in 11ms (Views: 9.0ms | ActiveRecord: 0.0ms | Allocations: 2721)
+
+
+Started GET "/cubed/3" for ::1 at 2022-09-06 14:59:20 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2403)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.0ms | Allocations: 2721)
+
+
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:00:08 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 45.9ms | Allocations: 13905)
+Completed 200 OK in 53ms (Views: 50.8ms | ActiveRecord: 0.0ms | Allocations: 14688)
+
+
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:00:12 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 2396)
+Completed 200 OK in 16ms (Views: 13.8ms | ActiveRecord: 0.0ms | Allocations: 2725)
+
+
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:00:40 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.8ms | Allocations: 142)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 2799)
+Completed 200 OK in 23ms (Views: 20.6ms | ActiveRecord: 0.0ms | Allocations: 3841)
+
+
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:02:27 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:02:38 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1633)
+
+
+  
+NoMethodError (undefined method `**' for "3":String
+Did you mean?  *):
+  
+app/controllers/main_controller.rb:17:in `cubed'
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:03:42 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1536)
+
+
+  
+NoMethodError (undefined method `**' for "3":String
+Did you mean?  *):
+  
+app/controllers/main_controller.rb:17:in `cubed'
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:03:44 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1556)
+
+
+  
+NoMethodError (undefined method `**' for "3":String
+Did you mean?  *):
+  
+app/controllers/main_controller.rb:17:in `cubed'
+Started GET "/cubed" for ::1 at 2022-09-06 15:03:46 -0700
+Processing by MainController#cubed as HTML
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 1844)
+
+
+  
+ActionView::MissingTemplate (Missing template main/cubed.html.erb, application/cubed.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/cubed
+               main/fire_twerk
+               main/hieu
+               main/cathrine
+               rails/conductor/action_mailbox/inbound_emails/new
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:19:in `cubed'
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:03:54 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1555)
+
+
+  
+NoMethodError (undefined method `**' for "3":String
+Did you mean?  *):
+  
+app/controllers/main_controller.rb:17:in `cubed'
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:04:56 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1536)
+
+
+  
+NoMethodError (undefined method `**' for "3":String
+Did you mean?  *):
+  
+app/controllers/main_controller.rb:16:in `cubed'
+Started GET "/cubed/3" for ::1 at 2022-09-06 15:05:21 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 47.5ms | Allocations: 14013)
+Completed 200 OK in 51ms (Views: 50.0ms | ActiveRecord: 0.0ms | Allocations: 14798)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:14:16 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4238)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 4317)
+Completed 500 Internal Server Error in 12ms (Allocations: 5364)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `num1' for #<ActionView::Base:0x0000000002a850>):
+    1: <h1><%= num1 %> divided by <%= num2 %> is <%= result %></h1> 
+  
+app/views/main/evenly.html.erb:1
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:15:26 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 1.9ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 56.0ms | Allocations: 14409)
+Completed 200 OK in 64ms (Views: 61.3ms | Allocations: 15450)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:16:09 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 3.4ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 28.8ms | Allocations: 2836)
+Completed 200 OK in 39ms (Views: 33.8ms | Allocations: 3877)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:18:25 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:19: syntax error, unexpected local variable or method, expecting `end'
+...      @num1 = params[:num1]to_i
+...                           ^~~~
+/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:20: syntax error, unexpected local variable or method, expecting `end'
+...      @num2 = params[:num2]to_i
+...                           ^~~~
+):
+  
+app/controllers/main_controller.rb:19: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/main_controller.rb:20: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/main_controller.rb:19: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/main_controller.rb:20: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/main_controller.rb:19: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/main_controller.rb:20: syntax error, unexpected local variable or method, expecting `end'
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:19:23 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 2.4ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 83.2ms | Allocations: 14370)
+Completed 200 OK in 119ms (Views: 97.5ms | Allocations: 15401)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:20:19 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 21)
+  Rendered layout layouts/application.html.erb (Duration: 52.5ms | Allocations: 13906)
+Completed 200 OK in 59ms (Views: 56.2ms | Allocations: 14690)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:20:21 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.2ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 7.7ms | Allocations: 2418)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 2749)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:20:22 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 2402)
+Completed 200 OK in 14ms (Views: 12.3ms | Allocations: 2733)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:20:41 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 4.5ms | Allocations: 428)
+  Rendered layout layouts/application.html.erb (Duration: 274.4ms | Allocations: 34922)
+Completed 200 OK in 320ms (Views: 292.9ms | ActiveRecord: 0.0ms | Allocations: 40307)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:22:20 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:22: syntax error, unexpected '<'
+        render <h1><%= @num1 %> divided by <%= @n...
+                   ^
+/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:22: syntax error, unexpected instance variable, expecting `end'
+...= @num1 %> divided by <%= @num2 %> is evenly divisible</h1> 
+...                          ^~~~~
+/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:27: unterminated regexp meets end of file
+/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:22: syntax error, unexpected '<'
+app/controllers/main_controller.rb:22: syntax error, unexpected instance variable, expecting `end'
+app/controllers/main_controller.rb:27: unterminated regexp meets end of file
+app/controllers/main_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:22: syntax error, unexpected '<'
+app/controllers/main_controller.rb:22: syntax error, unexpected instance variable, expecting `end'
+app/controllers/main_controller.rb:27: unterminated regexp meets end of file
+app/controllers/main_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:22: syntax error, unexpected '<'
+app/controllers/main_controller.rb:22: syntax error, unexpected instance variable, expecting `end'
+app/controllers/main_controller.rb:27: unterminated regexp meets end of file
+app/controllers/main_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:26:21 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 3.8ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 245.2ms | Allocations: 14377)
+Completed 200 OK in 262ms (Views: 255.0ms | ActiveRecord: 0.0ms | Allocations: 15461)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:27:01 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 5.5ms | Allocations: 167)
+  Rendered layout layouts/application.html.erb (Duration: 32.8ms | Allocations: 2840)
+Completed 200 OK in 46ms (Views: 42.2ms | ActiveRecord: 0.0ms | Allocations: 3888)
+
+
+Started GET "/evenly/10,2" for ::1 at 2022-09-06 15:33:30 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"10", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 1.8ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 35.7ms | Allocations: 14383)
+Completed 200 OK in 43ms (Views: 40.5ms | Allocations: 15460)
+
+
+Started GET "/palindrome/apple" for ::1 at 2022-09-06 15:33:49 -0700
+Processing by MainController#palindrome as HTML
+  Parameters: {"string"=>"apple"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/palindrome.html.erb within layouts/application
+  Rendered main/palindrome.html.erb within layouts/application (Duration: 1.5ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2521)
+Completed 200 OK in 11ms (Views: 9.0ms | Allocations: 2918)
+
+
+Started GET "/palindrome/anna" for ::1 at 2022-09-06 15:34:17 -0700
+Processing by MainController#palindrome as HTML
+  Parameters: {"string"=>"anna"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/palindrome.html.erb within layouts/application
+  Rendered main/palindrome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 9.7ms | Allocations: 2398)
+Completed 200 OK in 12ms (Views: 10.7ms | Allocations: 2730)
+
+
+Started GET "/madlib/bread,toast,raw,gently" for ::1 at 2022-09-06 15:41:15 -0700
+Processing by MainController#madlib as HTML
+  Parameters: {"noun"=>"bread", "verb"=>"toast", "adjective"=>"raw", "adverb"=>"gently"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/madlib.html.erb within layouts/application
+  Rendered main/madlib.html.erb within layouts/application (Duration: 10.5ms | Allocations: 4337)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 4416)
+Completed 500 Internal Server Error in 17ms (Allocations: 5475)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `adjective' for #<ActionView::Base:0x0000000001a2e8>
+Did you mean?  @adjective):
+    1: <h1>It was a <%= adjective %>, cold November day. I woke up to the <%= adjective %>smell of <%= noun %> roasting in the oven. I <%= verb %> down the stairs to see if I could help <%= adverb %> <%= verb %>.</h1>
+  
+app/views/main/madlib.html.erb:1
+Started GET "/madlib/bread,toast,raw,gently" for ::1 at 2022-09-06 15:41:59 -0700
+Processing by MainController#madlib as HTML
+  Parameters: {"noun"=>"bread", "verb"=>"toast", "adjective"=>"raw", "adverb"=>"gently"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/madlib.html.erb within layouts/application
+  Rendered main/madlib.html.erb within layouts/application (Duration: 2.1ms | Allocations: 207)
+  Rendered layout layouts/application.html.erb (Duration: 54.3ms | Allocations: 14412)
+Completed 200 OK in 66ms (Views: 62.2ms | Allocations: 15459)
+
+
+Started GET "/madlib/bread,toast,raw,gently" for ::1 at 2022-09-06 15:42:19 -0700
+Processing by MainController#madlib as HTML
+  Parameters: {"noun"=>"bread", "verb"=>"toast", "adjective"=>"raw", "adverb"=>"gently"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/madlib.html.erb within layouts/application
+  Rendered main/madlib.html.erb within layouts/application (Duration: 2.8ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 19.1ms | Allocations: 2871)
+Completed 200 OK in 29ms (Views: 25.3ms | Allocations: 3917)
+
+
+Started GET "/cubed" for ::1 at 2022-09-06 15:50:05 -0700
+Processing by MainController#cubed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 2.9ms | Allocations: 404)
+  Rendered layout layouts/application.html.erb (Duration: 242.7ms | Allocations: 35309)
+Completed 200 OK in 304ms (Views: 256.7ms | ActiveRecord: 0.0ms | Allocations: 40693)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:50:08 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 2.8ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2506)
+Completed 200 OK in 14ms (Views: 11.7ms | ActiveRecord: 0.0ms | Allocations: 2889)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:50:11 -0700
+Processing by MainController#fire_twerk as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/fire_twerk.html.erb within layouts/application
+  Rendered main/fire_twerk.html.erb within layouts/application (Duration: 0.2ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2395)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2717)
+
+
+Started GET "/cathrine" for ::1 at 2022-09-06 15:50:16 -0700
+Processing by MainController#cathrine as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cathrine.html.erb within layouts/application
+  Rendered main/cathrine.html.erb within layouts/application (Duration: 1.9ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 2527)
+Completed 200 OK in 16ms (Views: 12.3ms | ActiveRecord: 0.0ms | Allocations: 2910)
+
+
+Started GET "/hieu" for ::1 at 2022-09-06 15:50:24 -0700
+Processing by MainController#hieu as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/hieu.html.erb within layouts/application
+  Rendered main/hieu.html.erb within layouts/application (Duration: 3.8ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 2527)
+Completed 200 OK in 23ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 2910)
+
+
+Started GET "/cubed" for ::1 at 2022-09-06 15:50:34 -0700
+Processing by MainController#cubed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 2397)
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.0ms | Allocations: 2728)
+
+
+Started GET "/cubed/5" for ::1 at 2022-09-06 15:50:48 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"cubed"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.2ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 16.0ms | Allocations: 2392)
+Completed 200 OK in 19ms (Views: 17.1ms | ActiveRecord: 0.0ms | Allocations: 2722)
+
+
+Started GET "/evenly/40,5" for ::1 at 2022-09-06 15:51:03 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"40", "num2"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 2.4ms | Allocations: 163)
+  Rendered layout layouts/application.html.erb (Duration: 13.4ms | Allocations: 2550)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms | Allocations: 2941)
+
+
+Started GET "/palindrome/apple" for ::1 at 2022-09-06 15:51:16 -0700
+Processing by MainController#palindrome as HTML
+  Parameters: {"string"=>"apple"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/palindrome.html.erb within layouts/application
+  Rendered main/palindrome.html.erb within layouts/application (Duration: 2.4ms | Allocations: 147)
+  Rendered layout layouts/application.html.erb (Duration: 13.8ms | Allocations: 2526)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 2920)
+
+
+Started GET "/palindrome/anna" for ::1 at 2022-09-06 15:51:23 -0700
+Processing by MainController#palindrome as HTML
+  Parameters: {"string"=>"anna"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/palindrome.html.erb within layouts/application
+  Rendered main/palindrome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 2400)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.0ms | Allocations: 2735)
+
+
+Started GET "/madlib/bread,toast,raw,gently" for ::1 at 2022-09-06 15:51:33 -0700
+Processing by MainController#madlib as HTML
+  Parameters: {"noun"=>"bread", "verb"=>"toast", "adjective"=>"raw", "adverb"=>"gently"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/madlib.html.erb within layouts/application
+  Rendered main/madlib.html.erb within layouts/application (Duration: 2.5ms | Allocations: 207)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2580)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.0ms | Allocations: 2973)
+
+
