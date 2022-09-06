@@ -1,0 +1,668 @@
+  [1m[35m (858.7ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_development" ENCODING = 'unicode'[0m
+  [1m[35m (444.0ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-09-06 14:15:52 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.4ms | Allocations: 752)
+Completed 200 OK in 49ms (Views: 20.5ms | ActiveRecord: 0.0ms | Allocations: 7127)
+
+
+Started GET "/" for ::1 at 2022-09-06 14:29:30 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 646)
+Completed 200 OK in 24ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 5847)
+
+
+Started GET "/" for ::1 at 2022-09-06 14:29:39 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 375)
+Completed 200 OK in 4ms (Views: 2.3ms | ActiveRecord: 0.0ms | Allocations: 1255)
+
+
+Started GET "/" for ::1 at 2022-09-06 14:29:45 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.2ms | Allocations: 24)
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.0ms | Allocations: 298)
+
+
+Started GET "/main" for ::1 at 2022-09-06 14:31:29 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/main"):
+  
+Started GET "/main" for ::1 at 2022-09-06 14:32:22 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/main"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:32:27 -0700
+Processing by MainController#control as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 8)
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.0ms | Allocations: 954)
+
+
+Started GET "/control" for ::1 at 2022-09-06 14:37:17 -0700
+Processing by MainController#control as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/control.html.erb within layouts/application
+  Rendered main/control.html.erb within layouts/application (Duration: 0.4ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 1339.1ms | Allocations: 90179)
+Completed 200 OK in 1342ms (Views: 1341.1ms | ActiveRecord: 0.0ms | Allocations: 91250)
+
+
+Started GET "/control" for ::1 at 2022-09-06 14:38:34 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:38:54 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:38:58 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:39:00 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:39:00 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:40:05 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:40:06 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/control" for ::1 at 2022-09-06 14:40:08 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/control"):
+  
+Started GET "/" for ::1 at 2022-09-06 14:40:12 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 5.3ms | Allocations: 380)
+Completed 200 OK in 31ms (Views: 9.2ms | ActiveRecord: 0.0ms | Allocations: 3779)
+
+
+Started GET "/names" for ::1 at 2022-09-06 14:40:25 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 0.8ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 90.5ms | Allocations: 34665)
+Completed 200 OK in 95ms (Views: 93.6ms | ActiveRecord: 0.0ms | Allocations: 35784)
+
+
+Started GET "/names" for ::1 at 2022-09-06 14:50:22 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 15.7ms | Allocations: 4253)
+  Rendered layout layouts/application.html.erb (Duration: 16.3ms | Allocations: 4332)
+Completed 500 Internal Server Error in 23ms (Allocations: 5343)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `brook_path' for #<ActionView::Base:0x0000000000b2e8>):
+    1: <h1>Names</h1>
+    2: <p>
+    3:     <%= link_to "Brook", brook_path %>
+    4: </p>
+  
+app/views/main/names.html.erb:3
+Started GET "/names" for ::1 at 2022-09-06 14:50:34 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 35.9ms | Allocations: 4197)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 4276)
+Completed 500 Internal Server Error in 47ms (Allocations: 5271)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `brook_path' for #<ActionView::Base:0x0000000000b5e0>):
+    1: <h1>Names</h1>
+    2: <p>
+    3:     # <%= link_to "Brook", brook_path %>
+    4: </p>
+  
+app/views/main/names.html.erb:3
+Started GET "/names" for ::1 at 2022-09-06 14:50:37 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 10.7ms | Allocations: 4054)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 4132)
+Completed 500 Internal Server Error in 13ms (Allocations: 4414)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `brook_path' for #<ActionView::Base:0x0000000000b8b0>):
+    1: <h1>Names</h1>
+    2: <p>
+    3:     # <%= link_to "Brook", brook_path %>
+    4: </p>
+  
+app/views/main/names.html.erb:3
+Started GET "/names" for ::1 at 2022-09-06 14:50:52 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 24.5ms | Allocations: 5240)
+  Rendered layout layouts/application.html.erb (Duration: 25.2ms | Allocations: 5330)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.0ms | Allocations: 10634)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `brook_path' for #<ActionView::Base:0x0000000000a668>):
+    1: <h1>Names</h1>
+    2: <p>
+    3:     # <%= link_to "Brook", brook_path %>
+    4: </p>
+  
+app/views/main/names.html.erb:3
+Started GET "/" for ::1 at 2022-09-06 14:51:16 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.5ms | Allocations: 646)
+Completed 200 OK in 21ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 5847)
+
+
+Started GET "/names" for ::1 at 2022-09-06 14:51:23 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 12.2ms | Allocations: 4982)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 5064)
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 0.0ms | Allocations: 6171)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `brook_path' for #<ActionView::Base:0x0000000000a780>):
+    1: <h1>Names</h1>
+    2: <p>
+    3:     # <%= link_to "Brook", brook_path %>
+    4: </p>
+  
+app/views/main/names.html.erb:3
+Started GET "/names" for ::1 at 2022-09-06 14:51:33 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.0ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 175.5ms | Allocations: 34399)
+Completed 200 OK in 190ms (Views: 183.0ms | ActiveRecord: 0.0ms | Allocations: 35438)
+
+
+Started GET "/holden" for ::1 at 2022-09-06 14:54:23 -0700
+Processing by MainController#holden as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/holden.html.erb within layouts/application
+  Rendered main/holden.html.erb within layouts/application (Duration: 0.4ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 19.9ms | Allocations: 14228)
+Completed 200 OK in 22ms (Views: 21.5ms | ActiveRecord: 0.0ms | Allocations: 15294)
+
+
+Started GET "/brook" for ::1 at 2022-09-06 14:54:32 -0700
+Processing by MainController#brook as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/brook.html.erb within layouts/application
+  Rendered main/brook.html.erb within layouts/application (Duration: 1.8ms | Allocations: 117)
+  Rendered layout layouts/application.html.erb (Duration: 10.7ms | Allocations: 2504)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms | Allocations: 2885)
+
+
+Started GET "/" for ::1 at 2022-09-06 14:58:40 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 24.9ms | Allocations: 374)
+Completed 200 OK in 51ms (Views: 44.1ms | ActiveRecord: 0.0ms | Allocations: 1246)
+
+
+Started GET "/names" for ::1 at 2022-09-06 14:58:45 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 2.3ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 24.1ms | Allocations: 14229)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.0ms | Allocations: 15226)
+
+
+Started GET "/names" for ::1 at 2022-09-06 14:59:57 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.7ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2914)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.0ms | Allocations: 3945)
+
+
+Started GET "/brook" for ::1 at 2022-09-06 14:59:59 -0700
+Processing by MainController#brook as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/brook.html.erb within layouts/application
+  Rendered main/brook.html.erb within layouts/application (Duration: 0.6ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2498)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms | Allocations: 2876)
+
+
+Started GET "/names" for ::1 at 2022-09-06 15:00:49 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.0ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2919)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms | Allocations: 3950)
+
+
+Started GET "/holden" for ::1 at 2022-09-06 15:00:52 -0700
+Processing by MainController#holden as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/holden.html.erb within layouts/application
+  Rendered main/holden.html.erb within layouts/application (Duration: 0.6ms | Allocations: 118)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2504)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2882)
+
+
+Started GET "/names" for ::1 at 2022-09-06 15:04:07 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.5ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 15.1ms | Allocations: 2913)
+Completed 200 OK in 27ms (Views: 22.5ms | ActiveRecord: 0.0ms | Allocations: 3944)
+
+
+Started GET "/brook" for ::1 at 2022-09-06 15:04:09 -0700
+Processing by MainController#brook as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/brook.html.erb within layouts/application
+  Rendered main/brook.html.erb within layouts/application (Duration: 0.8ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2507)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.0ms | Allocations: 2885)
+
+
+Started GET "/holden" for ::1 at 2022-09-06 15:08:18 -0700
+Processing by MainController#holden as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/holden.html.erb within layouts/application
+  Rendered main/holden.html.erb within layouts/application (Duration: 0.7ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2815)
+Completed 200 OK in 10ms (Views: 9.2ms | Allocations: 3846)
+
+
+Started GET "/brook" for ::1 at 2022-09-06 15:08:22 -0700
+Processing by MainController#brook as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/brook.html.erb within layouts/application
+  Rendered main/brook.html.erb within layouts/application (Duration: 1.2ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 10.6ms | Allocations: 2516)
+Completed 200 OK in 13ms (Views: 11.6ms | Allocations: 2891)
+
+
+Started GET "/brook" for ::1 at 2022-09-06 15:08:31 -0700
+Processing by MainController#brook as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/brook.html.erb within layouts/application
+  Rendered main/brook.html.erb within layouts/application (Duration: 0.6ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2831)
+Completed 200 OK in 13ms (Views: 11.2ms | Allocations: 3859)
+
+
+Started GET "/names" for ::1 at 2022-09-06 15:08:34 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.9ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2654)
+Completed 200 OK in 12ms (Views: 11.0ms | Allocations: 3030)
+
+
+Started GET "/names" for ::1 at 2022-09-06 15:13:20 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.1ms | Allocations: 302)
+  Rendered layout layouts/application.html.erb (Duration: 20.7ms | Allocations: 14517)
+Completed 200 OK in 25ms (Views: 23.4ms | Allocations: 15577)
+
+
+Started GET "/cubed" for ::1 at 2022-09-06 15:13:22 -0700
+Processing by MainController#cubed as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 1.2ms | Allocations: 109)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2495)
+Completed 200 OK in 11ms (Views: 10.1ms | Allocations: 2883)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:15:13 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.0ms | Allocations: 299)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 14474)
+Completed 200 OK in 30ms (Views: 25.5ms | Allocations: 15534)
+
+
+Started GET "/brook" for ::1 at 2022-09-06 15:15:21 -0700
+Processing by MainController#brook as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/brook.html.erb within layouts/application
+  Rendered main/brook.html.erb within layouts/application (Duration: 1.2ms | Allocations: 130)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2509)
+Completed 200 OK in 6ms (Views: 5.5ms | Allocations: 2883)
+
+
+Started GET "/5" for ::1 at 2022-09-06 15:18:02 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/5"):
+  
+Started GET "/cubed" for ::1 at 2022-09-06 15:18:25 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cubed"):
+  
+Started GET "/" for ::1 at 2022-09-06 15:18:27 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 8.4ms | Allocations: 4350)
+  Rendered layout layouts/application.html.erb (Duration: 8.8ms | Allocations: 4429)
+Completed 500 Internal Server Error in 13ms (Allocations: 5413)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `cubed_path' for #<ActionView::Base:0x0000000001dbc8>):
+    3: <p><%= link_to "Brook", brook_path %></p>
+    4: <p><%= link_to "Holden", holden_path %></p>
+    5: <hr>
+    6: <p><%= link_to "Cubed", cubed_path %></p>
+  
+app/views/main/names.html.erb:6
+Started GET "/names" for ::1 at 2022-09-06 15:18:44 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/names"):
+  
+Started GET "/" for ::1 at 2022-09-06 15:19:28 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 2.5ms | Allocations: 582)
+  Rendered layout layouts/application.html.erb (Duration: 98.7ms | Allocations: 34954)
+Completed 200 OK in 115ms (Views: 103.4ms | ActiveRecord: 0.0ms | Allocations: 40313)
+
+
+Started GET "/brook" for ::1 at 2022-09-06 15:19:32 -0700
+Processing by MainController#brook as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/brook.html.erb within layouts/application
+  Rendered main/brook.html.erb within layouts/application (Duration: 0.7ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2518)
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.0ms | Allocations: 2903)
+
+
+Started GET "/holden" for ::1 at 2022-09-06 15:19:34 -0700
+Processing by MainController#holden as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/holden.html.erb within layouts/application
+  Rendered main/holden.html.erb within layouts/application (Duration: 0.7ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2513)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2896)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:23:17 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:17: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/" for ::1 at 2022-09-06 15:23:31 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 1.3ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 44.1ms | Allocations: 14424)
+Completed 200 OK in 48ms (Views: 46.7ms | ActiveRecord: 0.0ms | Allocations: 15441)
+
+
+Started GET "/5" for ::1 at 2022-09-06 15:23:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/5"):
+  
+Started GET "/5" for ::1 at 2022-09-06 15:24:20 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"5"}
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3068)
+
+
+  
+NameError (undefined local variable or method `num' for #<MainController:0x00000000015ea0>):
+  
+app/controllers/main_controller.rb:13:in `cubed'
+Started GET "/6" for ::1 at 2022-09-06 15:25:16 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"6"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms | Allocations: 1562)
+
+
+  
+NoMethodError (undefined method `**' for "6":String
+Did you mean?  *):
+  
+app/controllers/main_controller.rb:13:in `cubed'
+Started GET "/7" for ::1 at 2022-09-06 15:25:45 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"7"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 37.6ms | Allocations: 14132)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.0ms | Allocations: 14974)
+
+
+Started GET "/9" for ::1 at 2022-09-06 15:26:00 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"9"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 11.2ms | Allocations: 2408)
+Completed 200 OK in 15ms (Views: 13.4ms | ActiveRecord: 0.0ms | Allocations: 2737)
+
+
+Started GET "/7" for ::1 at 2022-09-06 15:27:20 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"7"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2401)
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.0ms | Allocations: 2734)
+
+
+Started GET "/w" for ::1 at 2022-09-06 15:27:26 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"w"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2401)
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.0ms | Allocations: 2730)
+
+
+Started GET "/w" for ::1 at 2022-09-06 15:27:39 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"w"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2399)
+Completed 200 OK in 6ms (Views: 5.2ms | ActiveRecord: 0.0ms | Allocations: 2728)
+
+
+Started GET "/6%203" for ::1 at 2022-09-06 15:43:46 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"6 3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.7ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 25.4ms | Allocations: 14310)
+Completed 200 OK in 28ms (Views: 27.1ms | Allocations: 15381)
+
+
+Started GET "/6/3" for ::1 at 2022-09-06 15:45:58 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.5ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 14076)
+Completed 200 OK in 28ms (Views: 26.7ms | Allocations: 14914)
+
+
+Started GET "/6" for ::1 at 2022-09-06 15:46:33 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.3ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 2406)
+Completed 200 OK in 12ms (Views: 10.9ms | Allocations: 2732)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:47:47 -0700
+Processing by MainController#names as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/names.html.erb within layouts/application
+  Rendered main/names.html.erb within layouts/application (Duration: 0.8ms | Allocations: 255)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 14143)
+Completed 200 OK in 32ms (Views: 30.1ms | Allocations: 14968)
+
+
+Started GET "/6/3" for ::1 at 2022-09-06 15:47:52 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2407)
+Completed 200 OK in 6ms (Views: 5.3ms | Allocations: 2734)
+
+
+Started GET "/3/6" for ::1 at 2022-09-06 15:48:01 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"3", "num2"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2391)
+Completed 200 OK in 5ms (Views: 4.6ms | Allocations: 2719)
+
+
+Started GET "/4/2" for ::1 at 2022-09-06 15:51:05 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"4", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 14004)
+Completed 200 OK in 22ms (Views: 21.1ms | Allocations: 14784)
+
+
+Started GET "/2/4" for ::1 at 2022-09-06 15:51:14 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"2", "num2"=>"4"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2397)
+Completed 200 OK in 9ms (Views: 8.2ms | Allocations: 2724)
+
+
+Started GET "/6/2" for ::1 at 2022-09-06 15:51:37 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"6", "num2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.2ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 14027)
+Completed 200 OK in 33ms (Views: 31.2ms | Allocations: 14808)
+
+
+Started GET "/6/w" for ::1 at 2022-09-06 15:53:02 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"6", "num2"=>"w"}
+Completed 500 Internal Server Error in 1ms (Allocations: 468)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/main_controller.rb:21:in `/'
+app/controllers/main_controller.rb:21:in `evenly'
+Started GET "/5" for ::1 at 2022-09-06 15:55:35 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.2ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2403)
+Completed 200 OK in 10ms (Views: 8.5ms | Allocations: 2729)
+
+
+Started GET "/e/e" for ::1 at 2022-09-06 15:55:38 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"e", "num2"=>"e"}
+Completed 500 Internal Server Error in 2ms (Allocations: 458)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/main_controller.rb:21:in `/'
+app/controllers/main_controller.rb:21:in `evenly'
+Started GET "/9/3" for ::1 at 2022-09-06 15:55:56 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"9", "num2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 18)
+  Rendered layout layouts/application.html.erb (Duration: 19.0ms | Allocations: 14014)
+Completed 200 OK in 21ms (Views: 20.4ms | Allocations: 14795)
+
+
+Started GET "/6/3" for ::1 at 2022-09-06 15:56:08 -0700
+Processing by MainController#evenly as HTML
+  Parameters: {"num1"=>"6", "num2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/evenly.html.erb within layouts/application
+  Rendered main/evenly.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2399)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 2726)
+
+
+Started GET "/racecar" for ::1 at 2022-09-06 16:04:56 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:46: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:46: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:46: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:46: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/racecar" for ::1 at 2022-09-06 16:05:16 -0700
+Processing by MainController#cubed as HTML
+  Parameters: {"num"=>"racecar"}
+  Rendering layout layouts/application.html.erb
+  Rendering main/cubed.html.erb within layouts/application
+  Rendered main/cubed.html.erb within layouts/application (Duration: 0.6ms | Allocations: 143)
+  Rendered layout layouts/application.html.erb (Duration: 24.0ms | Allocations: 14350)
+Completed 200 OK in 29ms (Views: 27.1ms | Allocations: 15376)
+
+
