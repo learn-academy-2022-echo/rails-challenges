@@ -1,0 +1,1272 @@
+  [1m[35m (236.9ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_development" ENCODING = 'unicode'[0m
+  [1m[35m (113.0ms)[0m  [1m[35mCREATE DATABASE "routes_controllers_views_params_test" ENCODING = 'unicode'[0m
+Started GET "/" for ::1 at 2022-09-06 14:08:04 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 4.0ms | Allocations: 752)
+Completed 200 OK in 31ms (Views: 10.6ms | ActiveRecord: 0.0ms | Allocations: 7127)
+
+
+Started GET "/" for ::1 at 2022-09-06 14:12:16 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 2.7ms | Allocations: 644)
+Completed 200 OK in 19ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 5837)
+
+
+Started GET "/" for ::1 at 2022-09-06 14:12:18 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 375)
+Completed 200 OK in 4ms (Views: 2.7ms | ActiveRecord: 0.0ms | Allocations: 1255)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 14:12:40 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/vanessa"):
+  
+Started GET "/Vanessa" for ::1 at 2022-09-06 14:13:08 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/Vanessa"):
+  
+Started GET "/home" for ::1 at 2022-09-06 14:13:37 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 14:15:01 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 4ms (Views: 3.6ms | ActiveRecord: 0.0ms | Allocations: 953)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:16:56 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/home" for ::1 at 2022-09-06 14:17:45 -0700
+  
+ArgumentError (Missing :controller key on routes definition, please check your routes.):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/home" for ::1 at 2022-09-06 14:18:06 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 4)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 695)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:19:01 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 694)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:22:31 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.0ms | Allocations: 682)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:22:33 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 242)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:24:28 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 1.5ms | Allocations: 709)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:25:20 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.1ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 0.9ms | Allocations: 238)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:25:21 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 1.1ms | Allocations: 238)
+
+
+Started GET "/list" for ::1 at 2022-09-06 14:25:29 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/list"):
+  
+Started GET "/list" for ::1 at 2022-09-06 14:25:58 -0700
+Processing by MainController#list as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 3ms (Views: 2.5ms | Allocations: 691)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:26:06 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.6ms | Allocations: 238)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:28:44 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 500 Internal Server Error in 2ms (Views: 0.9ms | Allocations: 1081)
+
+
+  
+AbstractController::DoubleRenderError (Render and/or redirect were called multiple times in this action. Please note that you may only call render OR redirect, and at most once per action. Also note that neither redirect nor render terminate execution of the action, so if you want to exit an action after redirecting, you need to do something like "redirect_to(...) and return".):
+  
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home" for ::1 at 2022-09-06 14:33:24 -0700
+Processing by MainController#home as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 1837)
+
+
+  
+ActionView::MissingTemplate (Missing template main/list.html.erb, application/list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/application
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home" for ::1 at 2022-09-06 14:35:00 -0700
+Processing by MainController#home as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1800)
+
+
+  
+ActionView::MissingTemplate (Missing template main/list.html.erb, application/list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/application
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home" for ::1 at 2022-09-06 14:35:04 -0700
+Processing by MainController#home as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1295)
+
+
+  
+ActionView::MissingTemplate (Missing template main/list.html.erb, application/list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/application
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home" for ::1 at 2022-09-06 14:35:36 -0700
+Processing by MainController#home as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1708)
+
+
+  
+ActionView::MissingTemplate (Missing template main/home.html.erb, application/home.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/home
+               main/list
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/index
+               rails/conductor/action_mailbox/inbound_emails/sources/new):
+  
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home" for ::1 at 2022-09-06 14:35:37 -0700
+Processing by MainController#home as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1281)
+
+
+  
+ActionView::MissingTemplate (Missing template main/home.html.erb, application/home.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/home
+               main/list
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/new
+               rails/conductor/action_mailbox/inbound_emails/index
+               rails/conductor/action_mailbox/inbound_emails/sources/new):
+  
+app/controllers/main_controller.rb:4:in `home'
+Started GET "/home" for ::1 at 2022-09-06 14:35:59 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 1.2ms | Allocations: 691)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:38:02 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.9ms | Allocations: 709)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:38:05 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 1ms (Views: 0.3ms | Allocations: 238)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:38:05 -0700
+Processing by MainController#home as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 3)
+Completed 200 OK in 2ms (Views: 0.8ms | Allocations: 238)
+
+
+Started GET "/list" for ::1 at 2022-09-06 14:38:09 -0700
+Processing by MainController#list as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1362)
+
+
+  
+ActionView::MissingTemplate (Missing template main/list.html.erb, application/list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/application
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:9:in `list'
+Started GET "/list" for ::1 at 2022-09-06 14:38:28 -0700
+Processing by MainController#list as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1732)
+
+
+  
+ActionView::MissingTemplate (Missing template main/list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/application
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:9:in `list'
+Started GET "/list" for ::1 at 2022-09-06 14:38:35 -0700
+Processing by MainController#list as HTML
+Completed 500 Internal Server Error in 3ms (Allocations: 1679)
+
+
+  
+ActionView::MissingTemplate (Missing template /list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               layouts/application
+               layouts/rails/conductor
+               rails/conductor/action_mailbox/inbound_emails/index):
+  
+app/controllers/main_controller.rb:9:in `list'
+Started GET "/list" for ::1 at 2022-09-06 14:39:06 -0700
+Processing by MainController#list as HTML
+Completed 500 Internal Server Error in 5ms (Allocations: 1697)
+
+
+  
+ActionView::MissingTemplate (Missing template main/list.html.erb, application/list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/application
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:8:in `list'
+Started GET "/list" for ::1 at 2022-09-06 14:44:54 -0700
+Processing by MainController#list as HTML
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 6226)
+
+
+  
+ActionView::MissingTemplate (Missing template main/list.html.erb, application/list.html.erb with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  main/list
+               main/home
+               rails/conductor/action_mailbox/inbound_emails/show
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/application
+               layouts/rails/conductor):
+  
+app/controllers/main_controller.rb:8:in `list'
+Started GET "/list" for ::1 at 2022-09-06 14:47:43 -0700
+Processing by MainController#list as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/list.html.erb within layouts/application
+  Rendered main/list.html.erb within layouts/application (Duration: 0.5ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 748.9ms | Allocations: 96550)
+Completed 200 OK in 753ms (Views: 751.3ms | ActiveRecord: 0.0ms | Allocations: 97669)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:47:51 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2515)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.0ms | Allocations: 2900)
+
+
+Started GET "/home" for ::1 at 2022-09-06 14:51:57 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/list" for ::1 at 2022-09-06 14:52:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/list"):
+  
+Started GET "/vanessa" for ::1 at 2022-09-06 14:53:00 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 1.1ms | Allocations: 123)
+  Rendered layout layouts/application.html.erb (Duration: 76.5ms | Allocations: 35592)
+Completed 200 OK in 92ms (Views: 80.7ms | ActiveRecord: 0.0ms | Allocations: 39155)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 14:53:41 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 10.6ms | Allocations: 4288)
+  Rendered layout layouts/application.html.erb (Duration: 11.5ms | Allocations: 4368)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 5389)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snacks1' for #<ActionView::Base:0x0000000000b130>
+Did you mean?  @snack):
+    1: <h1>Vanessas favorite snacks</h1>
+    2: <p><%= snacks1 %></p>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:54:06 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 9.7ms | Allocations: 4225)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 4304)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms | Allocations: 5305)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack1' for #<ActionView::Base:0x0000000000b450>
+Did you mean?  @snack):
+    1: <h1>Vanessas favorite snacks</h1>
+    2: <p><%= snack1 %></p>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:54:15 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 10.6ms | Allocations: 4048)
+  Rendered layout layouts/application.html.erb (Duration: 11.0ms | Allocations: 4127)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 4871)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack1' for #<ActionView::Base:0x0000000000f168>
+Did you mean?  @snack1):
+    1: <h1>Vanessas favorite snacks</h1>
+    2: <p><%= snack1 %></p>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:54:18 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 9.5ms | Allocations: 4089)
+  Rendered layout layouts/application.html.erb (Duration: 10.0ms | Allocations: 4168)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4458)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack1' for #<ActionView::Base:0x0000000000f460>
+Did you mean?  @snack1):
+    1: <h1>Vanessas favorite snacks</h1>
+    2: <p><%= snack1 %></p>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:54:19 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 10.1ms | Allocations: 4088)
+  Rendered layout layouts/application.html.erb (Duration: 10.4ms | Allocations: 4166)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 4452)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack1' for #<ActionView::Base:0x0000000000f730>
+Did you mean?  @snack1):
+    1: <h1>Vanessas favorite snacks</h1>
+    2: <p><%= snack1 %></p>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:55:38 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+        <p><%= snack %></p>
+        ^
+/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:8: unterminated string meets end of file
+/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:8: unterminated string meets end of file
+app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:8: unterminated string meets end of file
+app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:8: unterminated string meets end of file
+app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/vanessa" for ::1 at 2022-09-06 14:55:39 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+        <p><%= snack %></p>
+        ^
+/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:8: unterminated string meets end of file
+/Users/learnacademy/Desktop/Echo/rails-challenges/routes_controllers_views_params/app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:8: unterminated string meets end of file
+app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:8: unterminated string meets end of file
+app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/main_controller.rb:3: syntax error, unexpected '<'
+app/controllers/main_controller.rb:8: unterminated string meets end of file
+app/controllers/main_controller.rb:8: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/vanessa" for ::1 at 2022-09-06 14:55:48 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.9ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 27.3ms | Allocations: 14449)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.0ms | Allocations: 15466)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 14:57:15 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 8.6ms | Allocations: 4180)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 4259)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 5294)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack' for #<ActionView::Base:0x0000000001a8b0>
+Did you mean?  @snack):
+    1: <h1>Vanessas favorite snacks</h1>
+    2:     <p><%= snack %></p>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:57:33 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 20.9ms | Allocations: 4225)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 4304)
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 0.0ms | Allocations: 5303)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack' for #<ActionView::Base:0x0000000001ac20>
+Did you mean?  @snack):
+    1: <h1>Vanessas favorite snacks</h1>
+    2:     <%= snack %>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:57:34 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 7.3ms | Allocations: 4088)
+  Rendered layout layouts/application.html.erb (Duration: 7.6ms | Allocations: 4166)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 4453)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack' for #<ActionView::Base:0x0000000001aef0>
+Did you mean?  @snack):
+    1: <h1>Vanessas favorite snacks</h1>
+    2:     <%= snack %>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:57:40 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 8.0ms | Allocations: 4224)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 4303)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 5302)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack' for #<ActionView::Base:0x0000000001b1e8>
+Did you mean?  @snack):
+    1: <h1>Vanessas favorite snacks</h1>
+    2:     <%=snack %>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:59:16 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 8.7ms | Allocations: 4175)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 4254)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.0ms | Allocations: 5289)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `snack' for #<ActionView::Base:0x0000000001ed98>
+Did you mean?  @snack):
+    1: <h1>Vanessa favorite snacks</h1>
+    2:     <p><%= snack %></p>
+  
+app/views/main/vanessa.html.erb:2
+Started GET "/vanessa" for ::1 at 2022-09-06 14:59:39 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 2.4ms | Allocations: 405)
+  Rendered layout layouts/application.html.erb (Duration: 68.5ms | Allocations: 35947)
+Completed 200 OK in 85ms (Views: 73.8ms | ActiveRecord: 0.0ms | Allocations: 41309)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:00:53 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.8ms | Allocations: 173)
+  Rendered layout layouts/application.html.erb (Duration: 16.6ms | Allocations: 14382)
+Completed 200 OK in 21ms (Views: 19.2ms | ActiveRecord: 0.0ms | Allocations: 15458)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:02:21 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.5ms | Allocations: 172)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 14377)
+Completed 200 OK in 15ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 15451)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:02:24 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 0.9ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2556)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.0ms | Allocations: 2949)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:02:27 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2403)
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.0ms | Allocations: 2734)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:02:35 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 23.8ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 52.8ms | Allocations: 2857)
+Completed 200 OK in 126ms (Views: 122.6ms | ActiveRecord: 0.0ms | Allocations: 3897)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:02:36 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2398)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2726)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:02:48 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 0.2ms | Allocations: 20)
+  Rendered layout layouts/application.html.erb (Duration: 22.7ms | Allocations: 14077)
+Completed 200 OK in 25ms (Views: 24.3ms | ActiveRecord: 0.0ms | Allocations: 14859)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:02:54 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 1.5ms | Allocations: 173)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2558)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2944)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:03:58 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.5ms | Allocations: 172)
+  Rendered layout layouts/application.html.erb (Duration: 14.5ms | Allocations: 14410)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.0ms | Allocations: 15482)
+
+
+Started GET "/home" for ::1 at 2022-09-06 15:04:04 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:04:34 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:04:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:05:34 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:05:34 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:06:08 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:06:10 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/vanessa" for ::1 at 2022-09-06 15:06:16 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 1.6ms | Allocations: 173)
+  Rendered layout layouts/application.html.erb (Duration: 80.1ms | Allocations: 35280)
+Completed 200 OK in 93ms (Views: 82.9ms | ActiveRecord: 0.0ms | Allocations: 38851)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:06:20 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 1.7ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 8.0ms | Allocations: 2560)
+Completed 200 OK in 11ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 2952)
+
+
+Started GET "/home" for ::1 at 2022-09-06 15:06:24 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:07:11 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:07:42 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:08:33 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:08:48 -0700
+  
+ArgumentError ('/main' is not a supported controller name. This can lead to potential routing problems. See https://guides.rubyonrails.org/routing.html#specifying-a-controller-to-use):
+  
+config/routes.rb:2:in `block in <main>'
+config/routes.rb:1:in `<main>'
+Started GET "/home" for ::1 at 2022-09-06 15:08:56 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/" for ::1 at 2022-09-06 15:10:35 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 65.0ms | Allocations: 35208)
+Completed 200 OK in 80ms (Views: 68.4ms | ActiveRecord: 0.0ms | Allocations: 38757)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:10:56 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 1.2ms | Allocations: 169)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2546)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.0ms | Allocations: 2933)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:11:01 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2410)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms | Allocations: 2732)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:11:49 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.0ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 8.9ms | Allocations: 2815)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.0ms | Allocations: 3847)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:12:44 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.0ms | Allocations: 696)
+  Rendered layout layouts/application.html.erb (Duration: 11.3ms | Allocations: 3364)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms | Allocations: 4401)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:08 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 2.3ms | Allocations: 336)
+  Rendered layout layouts/application.html.erb (Duration: 9.3ms | Allocations: 3007)
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.0ms | Allocations: 4039)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:41 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 252)
+  Rendered layout layouts/application.html.erb (Duration: 12.0ms | Allocations: 2933)
+Completed 200 OK in 17ms (Views: 15.4ms | ActiveRecord: 0.0ms | Allocations: 3966)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:43 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2476)
+Completed 200 OK in 6ms (Views: 5.4ms | ActiveRecord: 0.0ms | Allocations: 2798)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:45 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 6.3ms | Allocations: 2484)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.0ms | Allocations: 2805)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:45 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2480)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2801)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:45 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2484)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2805)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 96)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2482)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.0ms | Allocations: 2803)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2490)
+Completed 200 OK in 9ms (Views: 7.6ms | ActiveRecord: 0.0ms | Allocations: 2811)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2480)
+Completed 200 OK in 9ms (Views: 7.9ms | ActiveRecord: 0.0ms | Allocations: 2801)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2468)
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.0ms | Allocations: 2789)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2480)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2801)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 2480)
+Completed 200 OK in 30ms (Views: 28.7ms | ActiveRecord: 0.0ms | Allocations: 2801)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 13.0ms | Allocations: 2486)
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.0ms | Allocations: 2807)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:47 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2474)
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.0ms | Allocations: 2795)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:47 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2476)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 2797)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:47 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2492)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms | Allocations: 2815)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:47 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2474)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2795)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:47 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2482)
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.0ms | Allocations: 2803)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:47 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 94)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2488)
+Completed 200 OK in 7ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 2809)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:57 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 254)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2933)
+Completed 200 OK in 13ms (Views: 10.8ms | ActiveRecord: 0.0ms | Allocations: 3964)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:13:58 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2475)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms | Allocations: 2797)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:14:00 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2473)
+Completed 200 OK in 7ms (Views: 5.5ms | ActiveRecord: 0.0ms | Allocations: 2794)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:14:00 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.3ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2473)
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.0ms | Allocations: 2794)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:14:00 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2485)
+Completed 200 OK in 10ms (Views: 8.2ms | ActiveRecord: 0.0ms | Allocations: 2806)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:14:00 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 9.4ms | Allocations: 2475)
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.0ms | Allocations: 2797)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:14:00 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 8.4ms | Allocations: 2475)
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.0ms | Allocations: 2796)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:14:02 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.4ms | Allocations: 95)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2479)
+Completed 200 OK in 9ms (Views: 7.4ms | ActiveRecord: 0.0ms | Allocations: 2797)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:15:10 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.7ms | Allocations: 137)
+  Rendered layout layouts/application.html.erb (Duration: 8.6ms | Allocations: 2812)
+Completed 200 OK in 13ms (Views: 11.3ms | Allocations: 3840)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:15:29 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 183)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2863)
+Completed 200 OK in 14ms (Views: 12.5ms | Allocations: 3893)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:15:30 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.6ms | Allocations: 171)
+  Rendered layout layouts/application.html.erb (Duration: 4.7ms | Allocations: 2554)
+Completed 200 OK in 6ms (Views: 5.4ms | Allocations: 2942)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:15:38 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.6ms | Allocations: 35)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2416)
+Completed 200 OK in 8ms (Views: 7.3ms | Allocations: 2731)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:17:32 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 213)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2900)
+Completed 200 OK in 10ms (Views: 8.7ms | Allocations: 3928)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:17:33 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 0.5ms | Allocations: 168)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2559)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 2947)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:18:31 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 1.5ms | Allocations: 172)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2847)
+Completed 200 OK in 16ms (Views: 14.3ms | Allocations: 3884)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:18:34 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.8ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2590)
+Completed 200 OK in 7ms (Views: 5.3ms | Allocations: 2962)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:18:35 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.8ms | Allocations: 208)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2590)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 2973)
+
+
+Started GET "/home" for ::1 at 2022-09-06 15:18:36 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/home" for ::1 at 2022-09-06 15:18:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/home"):
+  
+Started GET "/" for ::1 at 2022-09-06 15:18:54 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.2ms | Allocations: 214)
+  Rendered layout layouts/application.html.erb (Duration: 9.6ms | Allocations: 2888)
+Completed 200 OK in 15ms (Views: 13.2ms | Allocations: 3870)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:18:55 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.7ms | Allocations: 204)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2590)
+Completed 200 OK in 6ms (Views: 4.5ms | Allocations: 2978)
+
+
+Started GET "/root" for ::1 at 2022-09-06 15:18:57 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+Started GET "/root" for ::1 at 2022-09-06 15:19:18 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/root"):
+  
+Started GET "/" for ::1 at 2022-09-06 15:19:21 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.1ms | Allocations: 214)
+  Rendered layout layouts/application.html.erb (Duration: 9.8ms | Allocations: 2904)
+Completed 200 OK in 15ms (Views: 12.9ms | Allocations: 3887)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:19:22 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.7ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2594)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 2982)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:19:34 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 1.6ms | Allocations: 216)
+  Rendered layout layouts/application.html.erb (Duration: 9.1ms | Allocations: 2894)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 3931)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:19:35 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.5ms | Allocations: 199)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2583)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 2958)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:20:08 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.4ms | Allocations: 213)
+  Rendered layout layouts/application.html.erb (Duration: 8.3ms | Allocations: 2883)
+Completed 200 OK in 14ms (Views: 12.4ms | Allocations: 3911)
+
+
+Started GET "/vanessa" for ::1 at 2022-09-06 15:20:09 -0700
+Processing by MainController#vanessa as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/vanessa.html.erb within layouts/application
+  Rendered main/vanessa.html.erb within layouts/application (Duration: 0.9ms | Allocations: 203)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2581)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 2965)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:20:11 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2446)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 2764)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:20:30 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 1.5ms | Allocations: 212)
+  Rendered layout layouts/application.html.erb (Duration: 11.1ms | Allocations: 2900)
+Completed 200 OK in 19ms (Views: 16.3ms | Allocations: 3928)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:20:46 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.9ms | Allocations: 217)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2897)
+Completed 200 OK in 11ms (Views: 10.4ms | Allocations: 3926)
+
+
+Started GET "/cody" for ::1 at 2022-09-06 15:20:47 -0700
+Processing by MainController#cody as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/cody.html.erb within layouts/application
+  Rendered main/cody.html.erb within layouts/application (Duration: 0.7ms | Allocations: 206)
+  Rendered layout layouts/application.html.erb (Duration: 4.4ms | Allocations: 2592)
+Completed 200 OK in 6ms (Views: 5.6ms | Allocations: 2980)
+
+
+Started GET "/" for ::1 at 2022-09-06 15:20:48 -0700
+Processing by MainController#home as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering main/home.html.erb within layouts/application
+  Rendered main/home.html.erb within layouts/application (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 7.0ms | Allocations: 2430)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 2748)
+
+
