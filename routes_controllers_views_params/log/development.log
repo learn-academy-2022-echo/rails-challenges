@@ -1509,3 +1509,1344 @@ Processing by TeamController#lists as HTML
 Completed 200 OK in 84ms (Views: 71.8ms | Allocations: 2704)
 
 
+Started GET "/member/" for ::1 at 2022-09-06 18:35:14 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 2.4ms | Allocations: 499)
+  Rendered layout layouts/application.html.erb (Duration: 114.3ms | Allocations: 35324)
+Completed 200 OK in 137ms (Views: 127.3ms | ActiveRecord: 0.0ms | Allocations: 40660)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:36:28 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 8.5ms | Allocations: 2442)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms | Allocations: 2750)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:36:29 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.6ms | Allocations: 381)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.0ms | Allocations: 1281)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:36:32 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.2ms | Allocations: 375)
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.0ms | Allocations: 1255)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:36:35 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 292)
+
+
+Started GET "/" for ::1 at 2022-09-06 18:36:37 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/railties-7.0.3.1/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 2ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 291)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:41:28 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 1.1ms | Allocations: 210)
+  Rendered layout layouts/application.html.erb (Duration: 19.8ms | Allocations: 14315)
+Completed 200 OK in 24ms (Views: 23.1ms | Allocations: 15297)
+
+
+Started GET "/lists" for ::1 at 2022-09-06 18:41:33 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/lists"):
+  
+Started GET "/member/lists" for ::1 at 2022-09-06 18:41:39 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/member/lists"):
+  
+Started GET "/member" for ::1 at 2022-09-06 18:41:40 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.3ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 8.1ms | Allocations: 2451)
+Completed 200 OK in 12ms (Views: 9.8ms | Allocations: 2753)
+
+
+Started GET "/member/lists" for ::1 at 2022-09-06 18:41:49 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/member/lists"):
+  
+Started GET "/member" for ::1 at 2022-09-06 18:41:51 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2469)
+Completed 200 OK in 10ms (Views: 8.6ms | Allocations: 2770)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:42:39 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.2ms | Allocations: 65)
+  Rendered layout layouts/application.html.erb (Duration: 14.4ms | Allocations: 14051)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 14805)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:43:11 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.1ms | Allocations: 65)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 13959)
+Completed 200 OK in 14ms (Views: 13.4ms | Allocations: 14712)
+
+
+Started GET "/member/lists" for ::1 at 2022-09-06 18:43:31 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/member/lists"):
+  
+Started GET "/member" for ::1 at 2022-09-06 18:43:33 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.2ms | Allocations: 54)
+  Rendered layout layouts/application.html.erb (Duration: 6.9ms | Allocations: 2437)
+Completed 200 OK in 9ms (Views: 7.9ms | Allocations: 2737)
+
+
+Started GET "/member/lists" for ::1 at 2022-09-06 18:43:49 -0700
+Processing by TeamController#lists as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/lists.html.erb within layouts/application
+  Rendered team/lists.html.erb within layouts/application (Duration: 1.3ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 13.7ms | Allocations: 14147)
+Completed 200 OK in 16ms (Views: 15.0ms | Allocations: 14920)
+
+
+Started GET "/member/dlists" for ::1 at 2022-09-06 18:43:51 -0700
+Processing by TeamController#dlists as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/dlists.html.erb within layouts/application
+  Rendered team/dlists.html.erb within layouts/application (Duration: 1.1ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 7.5ms | Allocations: 2517)
+Completed 200 OK in 9ms (Views: 8.6ms | Allocations: 2876)
+
+
+Started GET "/member/lists" for ::1 at 2022-09-06 18:43:55 -0700
+Processing by TeamController#lists as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/lists.html.erb within layouts/application
+  Rendered team/lists.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.0ms | Allocations: 2406)
+Completed 200 OK in 8ms (Views: 7.1ms | Allocations: 2724)
+
+
+Started GET "/member/dlists" for ::1 at 2022-09-06 18:43:57 -0700
+Processing by TeamController#dlists as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/dlists.html.erb within layouts/application
+  Rendered team/dlists.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2419)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 2722)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:56:14 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:14: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/member" for ::1 at 2022-09-06 18:56:21 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.7ms | Allocations: 251)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 14465)
+Completed 200 OK in 27ms (Views: 26.3ms | Allocations: 15464)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:56:57 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 1.6ms | Allocations: 248)
+  Rendered layout layouts/application.html.erb (Duration: 23.7ms | Allocations: 2925)
+Completed 200 OK in 31ms (Views: 29.8ms | Allocations: 3938)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:56:58 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2454)
+Completed 200 OK in 8ms (Views: 7.4ms | Allocations: 2755)
+
+
+Started GET "/member" for ::1 at 2022-09-06 18:57:11 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 1.7ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 12.9ms | Allocations: 2944)
+Completed 200 OK in 17ms (Views: 16.5ms | Allocations: 3958)
+
+
+Started GET "/members/joey" for ::1 at 2022-09-06 18:57:13 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/members/joey"):
+  
+Started GET "/members" for ::1 at 2022-09-06 18:57:41 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/members"):
+  
+Started GET "/members" for ::1 at 2022-09-06 18:57:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/members"):
+  
+Started GET "/member" for ::1 at 2022-09-06 18:57:55 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 5.2ms | Allocations: 250)
+  Rendered layout layouts/application.html.erb (Duration: 11.9ms | Allocations: 2927)
+Completed 200 OK in 17ms (Views: 16.4ms | Allocations: 3943)
+
+
+Started GET "/member/joey" for ::1 at 2022-09-06 18:57:57 -0700
+Processing by TeamController#joey as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/joey.html.erb within layouts/application
+  Rendered team/joey.html.erb within layouts/application (Duration: 1.5ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 6.7ms | Allocations: 2517)
+Completed 200 OK in 9ms (Views: 8.4ms | Allocations: 2877)
+
+
+Started GET "/member" for ::1 at 2022-09-06 19:12:31 -0700
+Started GET "/member" for ::1 at 2022-09-06 19:13:15 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 3.0ms | Allocations: 537)
+  Rendered layout layouts/application.html.erb (Duration: 82.9ms | Allocations: 34993)
+Completed 200 OK in 124ms (Views: 115.8ms | ActiveRecord: 0.0ms | Allocations: 40345)
+
+
+Started GET "/cube" for ::1 at 2022-09-06 19:13:21 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/cube" for ::1 at 2022-09-06 19:13:56 -0700
+Processing by TeamController#cube as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 1844)
+
+
+  
+ActionView::MissingTemplate (Missing template team/cube with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  team/joey
+               team/joyce
+               team/member
+               team/dawit
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/rails/conductor):
+  
+app/controllers/team_controller.rb:16:in `cube'
+Started GET "/cube" for ::1 at 2022-09-06 19:14:33 -0700
+Processing by TeamController#cube as HTML
+Completed 406 Not Acceptable in 2ms (ActiveRecord: 0.0ms | Allocations: 660)
+
+
+  
+ActionController::MissingExactTemplate (TeamController#cube is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cube" for ::1 at 2022-09-06 19:14:34 -0700
+Processing by TeamController#cube as HTML
+Completed 406 Not Acceptable in 1ms (ActiveRecord: 0.0ms | Allocations: 536)
+
+
+  
+ActionController::MissingExactTemplate (TeamController#cube is missing a template for request formats: text/html):
+  
+actionpack (7.0.3.1) lib/action_controller/metal/implicit_render.rb:45:in `default_render'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `block in send_action'
+<internal:kernel>:90:in `tap'
+actionpack (7.0.3.1) lib/action_controller/metal/basic_implicit_render.rb:6:in `send_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:215:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rendering.rb:53:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:234:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+actiontext (7.0.3.1) lib/action_text/rendering.rb:20:in `with_renderer'
+actiontext (7.0.3.1) lib/action_text/engine.rb:69:in `block (4 levels) in <class:Engine>'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `instance_exec'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:127:in `block in run_callbacks'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:138:in `run_callbacks'
+actionpack (7.0.3.1) lib/abstract_controller/callbacks.rb:233:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/rescue.rb:22:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:67:in `block in process_action'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.3.1) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.3.1) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.3.1) lib/action_controller/metal/instrumentation.rb:66:in `process_action'
+actionpack (7.0.3.1) lib/action_controller/metal/params_wrapper.rb:259:in `process_action'
+activerecord (7.0.3.1) lib/active_record/railties/controller_runtime.rb:27:in `process_action'
+actionpack (7.0.3.1) lib/abstract_controller/base.rb:151:in `process'
+actionview (7.0.3.1) lib/action_view/rendering.rb:39:in `process'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:188:in `dispatch'
+actionpack (7.0.3.1) lib/action_controller/metal.rb:251:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.3.1) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.3.1) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/tempfile_reaper.rb:15:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/permissions_policy.rb:38:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/http/content_security_policy.rb:36:in `call'
+rack (2.2.4) lib/rack/session/abstract/id.rb:266:in `context'
+rack (2.2.4) lib/rack/session/abstract/id.rb:260:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/cookies.rb:697:in `call'
+activerecord (7.0.3.1) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.3.1) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.3.1) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `block in tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:38:in `tagged'
+activesupport (7.0.3.1) lib/active_support/tagged_logging.rb:114:in `tagged'
+railties (7.0.3.1) lib/rails/rack/logger.rb:25:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.3.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/server_timing.rb:20:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.3.1) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+railties (7.0.3.1) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/cube" for ::1 at 2022-09-06 19:14:43 -0700
+Processing by TeamController#cube as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 1845)
+
+
+  
+ActionView::MissingTemplate (Missing template /cube with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  layouts/rails/conductor
+               team/joey
+               team/joyce
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               team/member):
+  
+app/controllers/team_controller.rb:16:in `cube'
+Started GET "/cube" for ::1 at 2022-09-06 19:14:44 -0700
+Processing by TeamController#cube as HTML
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 1325)
+
+
+  
+ActionView::MissingTemplate (Missing template /cube with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  layouts/rails/conductor
+               team/joey
+               team/joyce
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/mailer
+               team/member):
+  
+app/controllers/team_controller.rb:16:in `cube'
+Started GET "/cube" for ::1 at 2022-09-06 19:15:26 -0700
+Processing by TeamController#cube as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1740)
+
+
+  
+ActionView::MissingTemplate (Missing template team/cube with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  team/joey
+               team/joyce
+               team/member
+               team/dawit
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/rails/conductor):
+  
+app/controllers/team_controller.rb:16:in `cube'
+Started GET "/cube" for ::1 at 2022-09-06 19:16:46 -0700
+Processing by TeamController#cube as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 1735)
+
+
+  
+ActionView::MissingTemplate (Missing template team/cube with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  team/joey
+               team/joyce
+               team/member
+               team/dawit
+               rails/conductor/action_mailbox/inbound_emails/index
+               layouts/rails/conductor):
+  
+app/controllers/team_controller.rb:16:in `cube'
+Started GET "/member" for ::1 at 2022-09-06 19:16:50 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.2ms | Allocations: 84)
+  Rendered layout layouts/application.html.erb (Duration: 21.6ms | Allocations: 14097)
+Completed 200 OK in 23ms (Views: 22.3ms | ActiveRecord: 0.0ms | Allocations: 14402)
+
+
+Started GET "/cube" for ::1 at 2022-09-06 19:17:46 -0700
+Processing by TeamController#cube as HTML
+  Rendering html template
+  Rendered html template (Duration: 0.0ms | Allocations: 7)
+Completed 200 OK in 4ms (Views: 3.0ms | ActiveRecord: 0.0ms | Allocations: 838)
+
+
+Started GET "/cube" for ::1 at 2022-09-06 19:24:55 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/member/joey" for ::1 at 2022-09-06 19:26:03 -0700
+Processing by TeamController#joey as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/joey.html.erb within layouts/application
+  Rendered team/joey.html.erb within layouts/application (Duration: 1.8ms | Allocations: 131)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 14348)
+Completed 200 OK in 44ms (Views: 43.2ms | Allocations: 15347)
+
+
+Started GET "/member" for ::1 at 2022-09-06 19:26:05 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 2.0ms | Allocations: 241)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2634)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 2993)
+
+
+Started GET "/cube" for ::1 at 2022-09-06 19:26:10 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/member/cube" for ::1 at 2022-09-06 19:26:30 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/member/cube"):
+  
+Started GET "/member" for ::1 at 2022-09-06 19:26:33 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 0.2ms | Allocations: 73)
+  Rendered layout layouts/application.html.erb (Duration: 4.6ms | Allocations: 2472)
+Completed 200 OK in 7ms (Views: 5.4ms | Allocations: 2773)
+
+
+Started GET "/cube" for ::1 at 2022-09-06 19:26:38 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/cube" for ::1 at 2022-09-06 19:26:50 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/cube" for ::1 at 2022-09-06 19:26:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/rails/info/routes?path=3" for ::1 at 2022-09-06 19:26:54 -0700
+Processing by Rails::InfoController#routes as */*
+  Parameters: {"path"=>"3"}
+Completed 200 OK in 2ms (Views: 0.2ms | Allocations: 1991)
+
+
+Started GET "/cube" for ::1 at 2022-09-06 19:39:24 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/" for ::1 at 2022-09-06 19:39:28 -0700
+Processing by TeamController#member as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/member.html.erb within layouts/application
+  Rendered team/member.html.erb within layouts/application (Duration: 5.0ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 326.8ms | Allocations: 14461)
+Completed 200 OK in 342ms (Views: 337.0ms | Allocations: 15460)
+
+
+Started GET "/cube" for ::1 at 2022-09-06 19:39:31 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/cube" for ::1 at 2022-09-06 19:40:38 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/cube" for ::1 at 2022-09-06 19:41:05 -0700
+Processing by TeamController#cube as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering team/cube.html.erb within layouts/application
+  Rendered team/cube.html.erb within layouts/application (Duration: 3.0ms | Allocations: 164)
+  Rendered layout layouts/application.html.erb (Duration: 97.0ms | Allocations: 14369)
+Completed 200 OK in 137ms (Views: 128.3ms | Allocations: 15384)
+
+
+Started GET "/cube/3" for ::1 at 2022-09-06 19:42:48 -0700
+Processing by TeamController#cube as HTML
+  Parameters: {"number"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/cube.html.erb within layouts/application
+  Rendered team/cube.html.erb within layouts/application (Duration: 0.3ms | Allocations: 32)
+  Rendered layout layouts/application.html.erb (Duration: 244.6ms | Allocations: 14024)
+Completed 200 OK in 259ms (Views: 250.6ms | Allocations: 14793)
+
+
+Started GET "/cube/10" for ::1 at 2022-09-06 19:42:54 -0700
+Processing by TeamController#cube as HTML
+  Parameters: {"number"=>"10"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/cube.html.erb within layouts/application
+  Rendered team/cube.html.erb within layouts/application (Duration: 0.3ms | Allocations: 28)
+  Rendered layout layouts/application.html.erb (Duration: 18.2ms | Allocations: 2390)
+Completed 200 OK in 25ms (Views: 21.9ms | Allocations: 2705)
+
+
+Started GET "/cube/120" for ::1 at 2022-09-06 19:45:06 -0700
+Processing by TeamController#cube as HTML
+  Parameters: {"number"=>"120"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/cube.html.erb within layouts/application
+  Rendered team/cube.html.erb within layouts/application (Duration: 0.7ms | Allocations: 24)
+  Rendered layout layouts/application.html.erb (Duration: 117.9ms | Allocations: 14020)
+Completed 200 OK in 129ms (Views: 126.6ms | Allocations: 14802)
+
+
+Started GET "/cube/120" for ::1 at 2022-09-06 19:45:24 -0700
+Processing by TeamController#cube as HTML
+  Parameters: {"number"=>"120"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/cube.html.erb within layouts/application
+  Rendered team/cube.html.erb within layouts/application (Duration: 1.8ms | Allocations: 149)
+  Rendered layout layouts/application.html.erb (Duration: 43.6ms | Allocations: 2818)
+Completed 200 OK in 65ms (Views: 54.4ms | Allocations: 3859)
+
+
+Started GET "/cube120" for ::1 at 2022-09-06 19:47:29 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube120"):
+  
+Started GET "/cube,120" for ::1 at 2022-09-06 19:47:40 -0700
+Processing by TeamController#cube as HTML
+  Parameters: {"number"=>"120"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/cube.html.erb within layouts/application
+  Rendered team/cube.html.erb within layouts/application (Duration: 0.2ms | Allocations: 19)
+  Rendered layout layouts/application.html.erb (Duration: 162.9ms | Allocations: 14008)
+Completed 200 OK in 180ms (Views: 176.3ms | Allocations: 14788)
+
+
+Started GET "/cube,120" for ::1 at 2022-09-07 07:12:02 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube,120"):
+  
+Started GET "/cube" for ::1 at 2022-09-07 07:12:07 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/cube"):
+  
+Started GET "/divisble" for ::1 at 2022-09-07 07:12:10 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisble"):
+  
+Started GET "/divisible" for ::1 at 2022-09-07 07:12:16 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisible"):
+  
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:12:26 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 1.3ms | Allocations: 122)
+  Rendered layout layouts/application.html.erb (Duration: 29.7ms | Allocations: 14335)
+Completed 200 OK in 36ms (Views: 33.8ms | Allocations: 15234)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:12:46 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 1.7ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 9.2ms | Allocations: 2812)
+Completed 200 OK in 14ms (Views: 13.0ms | Allocations: 3725)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:12:47 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.1ms | Allocations: 2408)
+Completed 200 OK in 8ms (Views: 6.8ms | Allocations: 2724)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:12:51 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2392)
+Completed 200 OK in 4ms (Views: 3.9ms | Allocations: 2707)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:12:54 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.4ms | Allocations: 2414)
+Completed 200 OK in 9ms (Views: 8.1ms | Allocations: 2729)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:13:05 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.8ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 12.1ms | Allocations: 2819)
+Completed 200 OK in 18ms (Views: 16.3ms | Allocations: 3733)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:13:06 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.6ms | Allocations: 2416)
+Completed 200 OK in 8ms (Views: 7.5ms | Allocations: 2732)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:13 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 1.1ms | Allocations: 125)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2798)
+Completed 200 OK in 12ms (Views: 11.2ms | Allocations: 3712)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:14 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2404)
+Completed 200 OK in 8ms (Views: 6.9ms | Allocations: 2720)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:14 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2412)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 2727)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:15 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 2392)
+Completed 200 OK in 8ms (Views: 6.6ms | Allocations: 2707)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:15 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 4.8ms | Allocations: 2400)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 2715)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:21 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.7ms | Allocations: 134)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2804)
+Completed 200 OK in 13ms (Views: 11.9ms | Allocations: 3717)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:26 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.0ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2387)
+Completed 200 OK in 6ms (Views: 5.1ms | Allocations: 2703)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:14:45 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.7ms | Allocations: 141)
+  Rendered layout layouts/application.html.erb (Duration: 7.9ms | Allocations: 2822)
+Completed 200 OK in 13ms (Views: 11.8ms | Allocations: 3736)
+
+
+Started GET "/divisible/42/3" for ::1 at 2022-09-07 07:14:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisible/42/3"):
+  
+Started GET "/divisible/42/3" for ::1 at 2022-09-07 07:15:44 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisible/42/3"):
+  
+Started GET "/divisible/42/3" for ::1 at 2022-09-07 07:15:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisible/42/3"):
+  
+Started GET "/divisible/42/3" for ::1 at 2022-09-07 07:15:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisible/42/3"):
+  
+Started GET "/divisible/42/3" for ::1 at 2022-09-07 07:15:46 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisible/42/3"):
+  
+Started GET "/42,2" for ::1 at 2022-09-07 07:16:17 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/42,2"):
+  
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:16:30 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:27: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:17:05 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.5ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 14.1ms | Allocations: 14357)
+Completed 200 OK in 18ms (Views: 16.7ms | Allocations: 15257)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:17:07 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 7.4ms | Allocations: 2404)
+Completed 200 OK in 9ms (Views: 8.7ms | Allocations: 2719)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:18:57 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.4ms | Allocations: 140)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 14336)
+Completed 200 OK in 23ms (Views: 21.9ms | Allocations: 15281)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:18:58 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.1ms | Allocations: 2406)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 2721)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:18:58 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2408)
+Completed 200 OK in 7ms (Views: 6.0ms | Allocations: 2723)
+
+
+Started GET "/divisible/42,2" for ::1 at 2022-09-07 07:18:58 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"2"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 4.9ms | Allocations: 2392)
+Completed 200 OK in 7ms (Views: 5.8ms | Allocations: 2707)
+
+
+Started GET "/divisible/42" for ::1 at 2022-09-07 07:19:02 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/divisible/42"):
+  
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:19:09 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 2408)
+Completed 200 OK in 8ms (Views: 6.7ms | Allocations: 2723)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:19:52 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.0ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 10.8ms | Allocations: 13932)
+Completed 200 OK in 12ms (Views: 11.8ms | Allocations: 14702)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:19:53 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.8ms | Allocations: 2402)
+Completed 200 OK in 7ms (Views: 6.5ms | Allocations: 2717)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:19:54 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2411)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 2726)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:19:54 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 6.5ms | Allocations: 2415)
+Completed 200 OK in 9ms (Views: 7.4ms | Allocations: 2730)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:19:54 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 15)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 2411)
+Completed 200 OK in 7ms (Views: 5.9ms | Allocations: 2726)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:20:27 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 2ms (Allocations: 448)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:13 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 442)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:14 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 462)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:14 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 460)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:47 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:29: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:29: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:29: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:29: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:56 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 491)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:57 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 462)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:57 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 460)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:21:58 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 460)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:23:19 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 442)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:23:30 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:25: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/team_controller.rb:25: syntax error, unexpected `end', expecting end-of-input
+app/controllers/team_controller.rb:25: syntax error, unexpected `end', expecting end-of-input
+app/controllers/team_controller.rb:25: syntax error, unexpected `end', expecting end-of-input
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:23:39 -0700
+  
+ActionView::MissingTemplate (Missing template team/divisble.html.erb, application/divisble.html.erb with {:locale=>[:en], :formats=>[:html, :text, :js, :css, :ics, :csv, :vcf, :vtt, :png, :jpeg, :gif, :bmp, :tiff, :svg, :mpeg, :mp3, :ogg, :m4a, :webm, :mp4, :otf, :ttf, :woff, :woff2, :xml, :rss, :atom, :yaml, :multipart_form, :url_encoded_form, :json, :pdf, :zip, :gzip, :turbo_stream], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :jbuilder]}.
+
+Searched in:
+  * "/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actiontext-7.0.3.1/app/views"
+  * "/Users/learnacademy/.rvm/gems/ruby-3.0.0/gems/actionmailbox-7.0.3.1/app/views"
+
+Did you mean?  team/divisible
+               team/dawit
+               team/cube
+               team/joey
+               team/joyce
+               team/member):
+  
+app/controllers/team_controller.rb:23:in `<class:TeamController>'
+app/controllers/team_controller.rb:1:in `<main>'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:23:49 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:24:07 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:25: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:24:13 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:24:15 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:19: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:24:22 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1135)
+  Rendered layout layouts/application.html.erb (Duration: 1.1ms | Allocations: 1215)
+Completed 500 Internal Server Error in 3ms (Allocations: 2186)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <h1>This number is <%= if params[:num1].to_i % params[:num2].to_i == 1 
+    @answer = 'not evenly divisible'
+else @answer = 'evenly divisible' %></h1>
+):
+1:    <h1>This number is <%= if params[:num1].to_i % params[:num2].to_i == 1 
+2:        @answer = 'not evenly divisible'
+3:    else @answer = 'evenly divisible' %></h1>
+  
+app/views/team/divisible.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/team/divisible.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/team/divisible.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/team/divisible.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/team/divisible.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/team/divisible.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/team/divisible.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/team/divisible.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/team/divisible.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/team/divisible.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+app/views/team/divisible.html.erb:3: syntax error, unexpected ')', expecting `end'
+app/views/team/divisible.html.erb:5: syntax error, unexpected end-of-input, expecting ')'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:24:46 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 442)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:25:34 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 462)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:25:35 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 462)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:25:36 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+Completed 500 Internal Server Error in 1ms (Allocations: 460)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,42" for ::1 at 2022-09-07 07:25:40 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"42"}
+Completed 500 Internal Server Error in 1ms (Allocations: 462)
+
+
+  
+ZeroDivisionError (divided by 0):
+  
+app/controllers/team_controller.rb:19:in `%'
+app/controllers/team_controller.rb:19:in `divisible'
+Started GET "/divisible/42,42" for ::1 at 2022-09-07 07:29:57 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:26: syntax error, unexpected `end', expecting end-of-input):
+  
+app/controllers/team_controller.rb:26: syntax error, unexpected `end', expecting end-of-input
+app/controllers/team_controller.rb:26: syntax error, unexpected `end', expecting end-of-input
+app/controllers/team_controller.rb:26: syntax error, unexpected `end', expecting end-of-input
+Started GET "/divisible/42,42" for ::1 at 2022-09-07 07:30:24 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"42"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.7ms | Allocations: 143)
+  Rendered layout layouts/application.html.erb (Duration: 15.8ms | Allocations: 14352)
+Completed 200 OK in 18ms (Views: 17.5ms | Allocations: 15380)
+
+
+Started GET "/divisible/42,3" for ::1 at 2022-09-07 07:30:28 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"3"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2396)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 2723)
+
+
+Started GET "/divisible/42,6" for ::1 at 2022-09-07 07:30:36 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 11.4ms | Allocations: 2401)
+Completed 200 OK in 14ms (Views: 12.8ms | Allocations: 2729)
+
+
+Started GET "/divisible/2,6" for ::1 at 2022-09-07 07:30:52 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"2", "number2"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 7.8ms | Allocations: 2408)
+Completed 200 OK in 10ms (Views: 8.9ms | Allocations: 2735)
+
+
+Started GET "/divisible/5,6" for ::1 at 2022-09-07 07:31:03 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"5", "number2"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 7.2ms | Allocations: 2396)
+Completed 200 OK in 10ms (Views: 8.2ms | Allocations: 2723)
+
+
+Started GET "/divisible/5,6" for ::1 at 2022-09-07 07:31:09 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"5", "number2"=>"6"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 5.3ms | Allocations: 2390)
+Completed 200 OK in 7ms (Views: 6.1ms | Allocations: 2717)
+
+
+Started GET "/divisible/42,5" for ::1 at 2022-09-07 07:31:14 -0700
+Processing by TeamController#divisible as HTML
+  Parameters: {"number1"=>"42", "number2"=>"5"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/divisible.html.erb within layouts/application
+  Rendered team/divisible.html.erb within layouts/application (Duration: 0.1ms | Allocations: 17)
+  Rendered layout layouts/application.html.erb (Duration: 8.2ms | Allocations: 2398)
+Completed 200 OK in 11ms (Views: 9.5ms | Allocations: 2725)
+
+
+Started GET "/palindrome/racercar" for ::1 at 2022-09-07 07:35:44 -0700
+  
+SyntaxError (/Users/learnacademy/Desktop/rails-challenges/routes_controllers_views_params/app/controllers/team_controller.rb:31: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/team_controller.rb:31: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:31: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/team_controller.rb:31: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/palindrome/racercar" for ::1 at 2022-09-07 07:35:56 -0700
+Processing by TeamController#palindrome as HTML
+  Parameters: {"string"=>"racercar"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/palindrome.html.erb within layouts/application
+  Rendered team/palindrome.html.erb within layouts/application (Duration: 0.8ms | Allocations: 139)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 14356)
+Completed 200 OK in 33ms (Views: 31.5ms | Allocations: 15386)
+
+
+Started GET "/palindrome/racecar" for ::1 at 2022-09-07 07:36:07 -0700
+Processing by TeamController#palindrome as HTML
+  Parameters: {"string"=>"racecar"}
+  Rendering layout layouts/application.html.erb
+  Rendering team/palindrome.html.erb within layouts/application
+  Rendered team/palindrome.html.erb within layouts/application (Duration: 0.1ms | Allocations: 16)
+  Rendered layout layouts/application.html.erb (Duration: 5.6ms | Allocations: 2391)
+Completed 200 OK in 8ms (Views: 6.5ms | Allocations: 2719)
+
+
